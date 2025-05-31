@@ -4,7 +4,7 @@ format:
 	black .
 
 lint:
-	flake8 .
+	flake8 --exclude=venv .
 
 test:
 	nosetests
