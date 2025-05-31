@@ -26,6 +26,8 @@ jobs:
     - name: Lint with flake8
       run: make lint
 
+# Nose 
+
     - name: Run unit tests with nose
       run: make test
 
